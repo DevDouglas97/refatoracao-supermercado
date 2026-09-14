@@ -16,7 +16,7 @@ carrinho.calcularTotal();
 
 Pedido pedido = new Pedido();
 pedido.setNumeroPedido(1);
-pedido.setCarrinho(c);
+pedido.setCarrinho(carrinho);
 
 pedido.fecharPedido();
 
