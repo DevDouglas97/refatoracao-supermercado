@@ -18,14 +18,6 @@ public class Cliente {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    public String getNomeCliente() {
-        return nome;
-    }
-
-    public void setNomeCliente(String cliente) {
-        this.nome = cliente;
-    }    
     
     public String getCpf() {
         return cpf;
