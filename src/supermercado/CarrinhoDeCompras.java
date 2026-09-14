@@ -11,16 +11,17 @@ public class CarrinhoDeCompras {
         this.produtos = new ArrayList<>();
     }
 
-    public void adicionarProduto(String nome, int quantidade, double precoUnitario) {
-        this.produtos.add(new Produto(nome, quantidade, precoUnitario));
+    public void adicionarProduto(Produto produto) {
+        this.produtos.add(produto);
     }
 
     public double calcularTotal() {
         double total = 0;
+
         for (Produto produto : produtos) {
             total += produto.getQuantidade() * produto.getPrecoUnitario();
         }
+
         return total;
     }
-    
 }
