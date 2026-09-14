@@ -49,8 +49,9 @@ Foi mantida uma única representação:
 getNome()  
  setNome()  
    
-Essa alteração reduziu a duplicação e tornou a interface da classe mais consistente.  
-**2. Correção do relacionamento entre **Pedido ** e **Cliente  
+Essa alteração reduziu a duplicação e tornou a interface da classe mais consistente.
+
+**2**. **Correção do relacionamento entre** **Pedido** e **Cliente**  
 Inicialmente, a classe Pedido possuía declarações incorretas para CPF e e-mail:  
 private int cpf;  
  private string email;  
@@ -96,8 +97,9 @@ Cliente
                        ▼  
                     Produto  
    
-O programa passou a permitir a entrada de dados pelo console e utiliza esses dados para criar e relacionar os objetos.  
-**▶️ Funcionamento**  
+O programa passou a permitir a entrada de dados pelo console e utiliza esses dados para criar e relacionar os objetos.
+ 
+**Funcionamento**  
 A aplicação é executada através da classe:  
 Supermercado.java  
    
@@ -119,8 +121,9 @@ Exemplo:
  Quantidade: 2  
  Preço unitário: 3,99  
    
-Após o preenchimento dos dados, o programa cria os objetos, associa o cliente ao pedido, adiciona o produto ao carrinho e calcula o total da compra.  
-**📚 Conceitos praticados**  
+Após o preenchimento dos dados, o programa cria os objetos, associa o cliente ao pedido, adiciona o produto ao carrinho e calcula o total da compra.
+  
+**Conceitos praticados**  
 Durante a atividade foram trabalhados conceitos de:  
 - Programação Orientada a Objetos (POO)  
 - Classes e objetos  
@@ -133,11 +136,11 @@ Durante a atividade foram trabalhados conceitos de:
 - Nomenclatura de variáveis  
 - Collections (List e ArrayList)  
 - Entrada de dados com Scanner  
-**🛠️ Tecnologias**  
+**Tecnologias**  
 - Java  
 - NetBeans  
 - Git  
 - GitHub  
-**🎓 Contexto acadêmico**  
+**Contexto acadêmico**  
 Este projeto foi desenvolvido como parte das atividades do curso Técnico em Desenvolvimento de Sistemas.  
 O foco principal não é a implementação de um sistema comercial completo, mas o exercício de análise, refatoração e integração de classes utilizando conceitos de Programação Orientada a Objetos.  
