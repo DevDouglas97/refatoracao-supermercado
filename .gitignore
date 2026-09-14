@@ -1,0 +1,13 @@
+# NetBeans
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+nbproject/private/
+
+# Arquivos temporários do LibreOffice
+.~lock.*
+
+# Arquivos compilados
+*.class
